@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC2EE1F161F191000D5394D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC2EE1E161F191000D5394D /* UIKit.framework */; };
+		2AC2EE21161F191000D5394D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC2EE20161F191000D5394D /* Foundation.framework */; };
+		2AC2EE23161F191000D5394D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC2EE22161F191000D5394D /* CoreGraphics.framework */; };
+		2AC2EE29161F191000D5394D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AC2EE27161F191000D5394D /* InfoPlist.strings */; };
+		2AC2EE2B161F191000D5394D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC2EE2A161F191000D5394D /* main.m */; };
+		2AC2EE2F161F191000D5394D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC2EE2E161F191000D5394D /* AppDelegate.m */; };
+		2AC2EE32161F191000D5394D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC2EE30161F191000D5394D /* MainStoryboard.storyboard */; };
+		2AC2EE35161F191000D5394D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC2EE34161F191000D5394D /* ViewController.m */; };
+		2AC2EE3D161F191000D5394D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC2EE3C161F191000D5394D /* SenTestingKit.framework */; };
+		2AC2EE3E161F191000D5394D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC2EE1E161F191000D5394D /* UIKit.framework */; };
+		2AC2EE3F161F191000D5394D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC2EE20161F191000D5394D /* Foundation.framework */; };
+		2AC2EE47161F191100D5394D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AC2EE45161F191100D5394D /* InfoPlist.strings */; };
+		2AC2EE4A161F191100D5394D /* GoodMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC2EE49161F191100D5394D /* GoodMenuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AC2EE40161F191100D5394D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC2EE11161F191000D5394D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC2EE19161F191000D5394D;
+			remoteInfo = GoodMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AC2EE1A161F191000D5394D /* GoodMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC2EE1E161F191000D5394D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AC2EE20161F191000D5394D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AC2EE22161F191000D5394D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AC2EE26161F191000D5394D /* GoodMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoodMenu-Info.plist"; sourceTree = "<group>"; };
+		2AC2EE28161F191000D5394D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AC2EE2A161F191000D5394D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AC2EE2C161F191000D5394D /* GoodMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoodMenu-Prefix.pch"; sourceTree = "<group>"; };
+		2AC2EE2D161F191000D5394D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AC2EE2E161F191000D5394D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AC2EE31161F191000D5394D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2AC2EE33161F191000D5394D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AC2EE34161F191000D5394D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AC2EE3B161F191000D5394D /* GoodMenuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodMenuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC2EE3C161F191000D5394D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2AC2EE44161F191100D5394D /* GoodMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoodMenuTests-Info.plist"; sourceTree = "<group>"; };
+		2AC2EE46161F191100D5394D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AC2EE48161F191100D5394D /* GoodMenuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodMenuTests.h; sourceTree = "<group>"; };
+		2AC2EE49161F191100D5394D /* GoodMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodMenuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC2EE17161F191000D5394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC2EE1F161F191000D5394D /* UIKit.framework in Frameworks */,
+				2AC2EE21161F191000D5394D /* Foundation.framework in Frameworks */,
+				2AC2EE23161F191000D5394D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC2EE37161F191000D5394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC2EE3D161F191000D5394D /* SenTestingKit.framework in Frameworks */,
+				2AC2EE3E161F191000D5394D /* UIKit.framework in Frameworks */,
+				2AC2EE3F161F191000D5394D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC2EE0F161F191000D5394D = {
+			isa = PBXGroup;
+			children = (
+				2AC2EE24161F191000D5394D /* GoodMenu */,
+				2AC2EE42161F191100D5394D /* GoodMenuTests */,
+				2AC2EE1D161F191000D5394D /* Frameworks */,
+				2AC2EE1B161F191000D5394D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC2EE1B161F191000D5394D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC2EE1A161F191000D5394D /* GoodMenu.app */,
+				2AC2EE3B161F191000D5394D /* GoodMenuTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC2EE1D161F191000D5394D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AC2EE1E161F191000D5394D /* UIKit.framework */,
+				2AC2EE20161F191000D5394D /* Foundation.framework */,
+				2AC2EE22161F191000D5394D /* CoreGraphics.framework */,
+				2AC2EE3C161F191000D5394D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AC2EE24161F191000D5394D /* GoodMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2AC2EE2D161F191000D5394D /* AppDelegate.h */,
+				2AC2EE2E161F191000D5394D /* AppDelegate.m */,
+				2AC2EE30161F191000D5394D /* MainStoryboard.storyboard */,
+				2AC2EE33161F191000D5394D /* ViewController.h */,
+				2AC2EE34161F191000D5394D /* ViewController.m */,
+				2AC2EE25161F191000D5394D /* Supporting Files */,
+			);
+			path = GoodMenu;
+			sourceTree = "<group>";
+		};
+		2AC2EE25161F191000D5394D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AC2EE26161F191000D5394D /* GoodMenu-Info.plist */,
+				2AC2EE27161F191000D5394D /* InfoPlist.strings */,
+				2AC2EE2A161F191000D5394D /* main.m */,
+				2AC2EE2C161F191000D5394D /* GoodMenu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AC2EE42161F191100D5394D /* GoodMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC2EE48161F191100D5394D /* GoodMenuTests.h */,
+				2AC2EE49161F191100D5394D /* GoodMenuTests.m */,
+				2AC2EE43161F191100D5394D /* Supporting Files */,
+			);
+			path = GoodMenuTests;
+			sourceTree = "<group>";
+		};
+		2AC2EE43161F191100D5394D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AC2EE44161F191100D5394D /* GoodMenuTests-Info.plist */,
+				2AC2EE45161F191100D5394D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AC2EE19161F191000D5394D /* GoodMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC2EE4D161F191100D5394D /* Build configuration list for PBXNativeTarget "GoodMenu" */;
+			buildPhases = (
+				2AC2EE16161F191000D5394D /* Sources */,
+				2AC2EE17161F191000D5394D /* Frameworks */,
+				2AC2EE18161F191000D5394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodMenu;
+			productName = GoodMenu;
+			productReference = 2AC2EE1A161F191000D5394D /* GoodMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AC2EE3A161F191000D5394D /* GoodMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC2EE50161F191100D5394D /* Build configuration list for PBXNativeTarget "GoodMenuTests" */;
+			buildPhases = (
+				2AC2EE36161F191000D5394D /* Sources */,
+				2AC2EE37161F191000D5394D /* Frameworks */,
+				2AC2EE38161F191000D5394D /* Resources */,
+				2AC2EE39161F191000D5394D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC2EE41161F191100D5394D /* PBXTargetDependency */,
+			);
+			name = GoodMenuTests;
+			productName = GoodMenuTests;
+			productReference = 2AC2EE3B161F191000D5394D /* GoodMenuTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AC2EE11161F191000D5394D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "横浜国立大学";
+			};
+			buildConfigurationList = 2AC2EE14161F191000D5394D /* Build configuration list for PBXProject "GoodMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AC2EE0F161F191000D5394D;
+			productRefGroup = 2AC2EE1B161F191000D5394D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AC2EE19161F191000D5394D /* GoodMenu */,
+				2AC2EE3A161F191000D5394D /* GoodMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AC2EE18161F191000D5394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC2EE29161F191000D5394D /* InfoPlist.strings in Resources */,
+				2AC2EE32161F191000D5394D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC2EE38161F191000D5394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC2EE47161F191100D5394D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AC2EE39161F191000D5394D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC2EE16161F191000D5394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC2EE2B161F191000D5394D /* main.m in Sources */,
+				2AC2EE2F161F191000D5394D /* AppDelegate.m in Sources */,
+				2AC2EE35161F191000D5394D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC2EE36161F191000D5394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC2EE4A161F191100D5394D /* GoodMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AC2EE41161F191100D5394D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC2EE19161F191000D5394D /* GoodMenu */;
+			targetProxy = 2AC2EE40161F191100D5394D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AC2EE27161F191000D5394D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC2EE28161F191000D5394D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AC2EE30161F191000D5394D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC2EE31161F191000D5394D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		2AC2EE45161F191100D5394D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC2EE46161F191100D5394D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AC2EE4B161F191100D5394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AC2EE4C161F191100D5394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AC2EE4E161F191100D5394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodMenu/GoodMenu-Prefix.pch";
+				INFOPLIST_FILE = "GoodMenu/GoodMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AC2EE4F161F191100D5394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodMenu/GoodMenu-Prefix.pch";
+				INFOPLIST_FILE = "GoodMenu/GoodMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2AC2EE51161F191100D5394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoodMenu.app/GoodMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodMenu/GoodMenu-Prefix.pch";
+				INFOPLIST_FILE = "GoodMenuTests/GoodMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2AC2EE52161F191100D5394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoodMenu.app/GoodMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodMenu/GoodMenu-Prefix.pch";
+				INFOPLIST_FILE = "GoodMenuTests/GoodMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC2EE14161F191000D5394D /* Build configuration list for PBXProject "GoodMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC2EE4B161F191100D5394D /* Debug */,
+				2AC2EE4C161F191100D5394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC2EE4D161F191100D5394D /* Build configuration list for PBXNativeTarget "GoodMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC2EE4E161F191100D5394D /* Debug */,
+				2AC2EE4F161F191100D5394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AC2EE50161F191100D5394D /* Build configuration list for PBXNativeTarget "GoodMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC2EE51161F191100D5394D /* Debug */,
+				2AC2EE52161F191100D5394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AC2EE11161F191000D5394D /* Project object */;
+}
