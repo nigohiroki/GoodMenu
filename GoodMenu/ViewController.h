@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *menuBtn2;
 @property (weak, nonatomic) IBOutlet UIButton *menuBtn3;
 @property (readwrite) BOOL toggle;
+@property (weak, nonatomic) IBOutlet UIButton *startBtn;
 
 - (IBAction)pushStartBtn:(id)sender;
 @end

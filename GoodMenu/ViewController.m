@@ -17,14 +17,16 @@
 @synthesize menuBtn2;
 @synthesize menuBtn3;
 @synthesize toggle;
+@synthesize startBtn;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    menuBtn1.hidden = YES;
-    menuBtn2.hidden = YES;
-    menuBtn3.hidden = YES;
+    startBtn.center = CGPointMake(50, 50);
+    menuBtn1.center = CGPointMake(50, 50);
+    menuBtn2.center = CGPointMake(50, 50);
+    menuBtn3.center = CGPointMake(50, 50);
     toggle = true;
     
 }
@@ -34,6 +36,7 @@
     [self setMenuBtn1:nil];
     [self setMenuBtn2:nil];
     [self setMenuBtn3:nil];
+    [self setStartBtn:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -45,16 +48,24 @@
 
 - (IBAction)pushStartBtn:(id)sender {
     if(toggle){
-        menuBtn1.hidden = NO;
-        menuBtn2.hidden = NO;
-        menuBtn3.hidden = NO;
+        [self animation:menuBtn1 :50 :110 :0.2];
+        [self animation:menuBtn2 :50 :170 :0.3];
+        [self animation:menuBtn3 :50 :230 :0.4];        
         toggle = false;
     }else{
-        menuBtn1.hidden = YES;
-        menuBtn2.hidden = YES;
-        menuBtn3.hidden = YES;
+        [self animation:menuBtn1 :50 :50 :0.2];
+        [self animation:menuBtn2 :50 :50 :0.4];
+        [self animation:menuBtn3 :50 :50 :0.6];
         toggle = true;
     }
     
 }
+
+- (void)animation:(UIButton *)btn:(int)x:(int)y:(float)a{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:a];
+    btn.center = CGPointMake(x, y);
+    [UIView commitAnimations];
+}
+
 @end
